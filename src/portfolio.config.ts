@@ -21,8 +21,10 @@ const config: PortfolioConfig = {
     intro:
       'I build Azure platforms at a Big 5 Canadian bank. I also help cloud engineers land better roles.',
     backdropWord: 'VISHAL',
-    video: '',
-    poster: 'media/hero-cutout.png',
+    video: 'media/hero.mp4',
+    poster: 'media/hero-poster.jpg',
+    videoTransparent: 'media/hero.webm',
+    posterTransparent: 'media/hero-poster.webp',
     primaryCta: { label: 'See my work', href: '#work' },
     secondaryCta: { label: 'Join the community', href: 'https://mentoraccelerate.com/cloudcareercommunitywaitlist' },
     quickFacts: [
