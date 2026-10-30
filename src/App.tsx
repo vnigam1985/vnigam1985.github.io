@@ -6,6 +6,7 @@ import { Experience } from './components/Experience';
 import { Hero } from './components/Hero';
 import { Moments } from './components/Moments';
 import { Nav } from './components/Nav';
+import { Roadmaps } from './components/Roadmaps';
 import { Skills } from './components/Skills';
 import { Certifications, Work } from './components/Work';
 import config from './portfolio.config';
@@ -49,6 +50,7 @@ export default function App() {
       <main>
         <Hero />
         <About />
+        <Roadmaps />
         <Experience />
         <Skills />
         <Certifications />

@@ -25,7 +25,7 @@ const config: PortfolioConfig = {
     poster: 'media/hero-poster.jpg',
     videoTransparent: 'media/hero.webm',
     posterTransparent: 'media/hero-poster.webp',
-    primaryCta: { label: 'See my work', href: '#work' },
+    primaryCta: { label: 'Free AI roadmaps', href: '#roadmaps' },
     secondaryCta: { label: 'Join the community', href: 'https://mentoraccelerate.com/cloudcareercommunitywaitlist' },
     quickFacts: [
       { value: '18+ yrs', label: 'in enterprise IT' },
@@ -241,6 +241,50 @@ const config: PortfolioConfig = {
     },
   ],
 
+  roadmaps: {
+    title: 'Free roadmaps for the *AI era.*',
+    subtitle:
+      'Open-source, step-by-step guides with verified links, working code, hands-on labs and interview prep. Built for engineers who want to move into AI platform and AI quality roles.',
+    items: [
+      {
+        title: 'Azure AI Platform Architect',
+        tagline: 'Run AI safely on Microsoft Azure.',
+        description:
+          'Private networking for Foundry, the APIM AI gateway, AI guardrails with Azure Policy, security, FinOps and OSFI-ready design. Validated Bicep and Terraform included.',
+        audience: 'Cloud and platform engineers',
+        href: 'https://github.com/vnigam1985/azure-ai-platform-architect',
+        tags: ['Microsoft Foundry', 'APIM AI gateway', 'Azure Policy', 'Bicep', 'Terraform'],
+      },
+      {
+        title: 'AWS AI Platform Architect',
+        tagline: 'Run AI safely on AWS.',
+        description:
+          'Amazon Bedrock with PrivateLink, guardrails, SCPs, AI gateway patterns, observability and cost control. Terraform starters and labs included.',
+        audience: 'Cloud and platform engineers',
+        href: 'https://github.com/vnigam1985/aws-ai-platform-architect',
+        tags: ['Amazon Bedrock', 'PrivateLink', 'Guardrails', 'Terraform'],
+      },
+      {
+        title: 'GCP AI Platform Architect',
+        tagline: 'Run AI safely on Google Cloud.',
+        description:
+          'Vertex AI with Private Service Connect and VPC Service Controls, org policies, AI gateway patterns, security and FinOps. Terraform starters and labs included.',
+        audience: 'Cloud and platform engineers',
+        href: 'https://github.com/vnigam1985/gcp-ai-platform-architect',
+        tags: ['Vertex AI', 'VPC Service Controls', 'Org Policy', 'Terraform'],
+      },
+      {
+        title: 'AI Quality Engineer',
+        tagline: 'Test LLM, RAG and agent apps.',
+        description:
+          'A 26-week path from QA engineer to AI quality engineer. promptfoo, DeepEval, Ragas, red teaming mapped to OWASP, Playwright and CI gates, with a sample app to test.',
+        audience: 'QA and test engineers',
+        href: 'https://github.com/vnigam1985/ai-quality-engineer',
+        tags: ['promptfoo', 'DeepEval', 'Ragas', 'Red teaming', 'Playwright'],
+      },
+    ],
+  },
+
   moments: {
     title: 'Proud *moments.*',
     subtitle: 'Keep scrolling.',
@@ -261,7 +305,10 @@ const config: PortfolioConfig = {
     links: [
       { label: 'LinkedIn', href: 'https://www.linkedin.com/in/nigam-vishal' },
       { label: 'GitHub', href: 'https://github.com/vnigam1985' },
+      { label: 'YouTube', href: 'https://www.youtube.com/@thrivewithvishal' },
       { label: 'Instagram', href: 'https://www.instagram.com/thrivewithvishal/' },
+      { label: 'X', href: 'https://x.com/thrivewidvishal' },
+      { label: 'Facebook', href: 'https://www.facebook.com/people/Vishal-Nigam/61565195962651/' },
       { label: 'All links', href: 'https://linktr.ee/nigamv' },
     ],
     cta: { label: 'Get the free 90-day job search framework', href: 'https://mentoraccelerate.com/90-day-job-search-framework' },

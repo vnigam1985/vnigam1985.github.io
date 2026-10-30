@@ -6,6 +6,7 @@ import { ease } from '../lib';
 export const navItems = [
   { id: 'home', label: 'Home' },
   { id: 'about', label: 'About' },
+  ...(config.roadmaps?.items.length ? [{ id: 'roadmaps', label: 'Roadmaps' }] : []),
   ...(config.experience?.jobs.length ? [{ id: 'experience', label: 'Experience' }] : []),
   { id: 'skills', label: 'Skills' },
   { id: 'work', label: 'Work' },
@@ -38,7 +39,7 @@ export function Nav() {
     };
   }, []);
 
-  const dark = active === 'contact';
+  const dark = active === 'contact' || active === 'roadmaps';
   const initials = config.site.logo
     .split(/\s+/)
     .map((w) => w[0])

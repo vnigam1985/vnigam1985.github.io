@@ -33,6 +33,7 @@ export function Rich({ text }: { text: string }) {
 export const sectionIndex = (id: string) => {
   const order = [
     'about',
+    config.roadmaps?.items.length ? 'roadmaps' : '',
     config.experience?.jobs.length ? 'experience' : '',
     'skills',
     config.certifications.length ? 'certs' : '',

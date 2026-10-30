@@ -108,6 +108,23 @@ export type Project = {
   link?: Link;
 };
 
+export type Roadmap = {
+  title: string;
+  /** Short line under the title, shown in italic serif. */
+  tagline: string;
+  description: string;
+  /** Who it is for, shown as a small label. */
+  audience: string;
+  href: string;
+  tags: string[];
+};
+
+export type RoadmapsConfig = {
+  title: RichTitle;
+  subtitle: string;
+  items: Roadmap[];
+};
+
 export type Moment = { value: string; unit?: string; title: string; detail: string };
 
 export type PortfolioConfig = {
@@ -132,6 +149,8 @@ export type PortfolioConfig = {
   /** Leave as [] to hide the certifications section. */
   certifications: Cert[];
   projects: Project[];
+  /** Free open-source roadmaps. Leave out to hide the section. */
+  roadmaps?: RoadmapsConfig;
   moments: { title: RichTitle; subtitle: string; items: Moment[] };
   contact: {
     title: RichTitle;
