@@ -242,15 +242,15 @@ const config: PortfolioConfig = {
   ],
 
   roadmaps: {
-    title: 'Free roadmaps for the *AI era.*',
+    title: 'Free roadmaps and courses for the *AI era.*',
     subtitle:
-      'Open-source, step-by-step guides with verified links, working code, hands-on labs and interview prep. Built for engineers who want to move into AI platform and AI quality roles.',
+      'Open-source roadmaps plus free 8-week build-along courses: one real system, built week by week, with working code, tests and interview prep. Built for engineers moving into AI platform and AI quality roles.',
     items: [
       {
         title: 'Azure AI Platform Architect',
         tagline: 'Run AI safely on Microsoft Azure.',
         description:
-          'Private networking for Foundry, the APIM AI gateway, AI guardrails with Azure Policy, security, FinOps and OSFI-ready design. Validated Bicep and Terraform included.',
+          'An 8-week course in Bicep: private Foundry models, the APIM AI gateway, AI guardrails with Azure Policy, security alerts, FinOps and a CI release gate with an OSFI E-23 model inventory.',
         audience: 'Cloud and platform engineers',
         href: 'https://github.com/vnigam1985/azure-ai-platform-architect',
         tags: ['Microsoft Foundry', 'APIM AI gateway', 'Azure Policy', 'Bicep', 'Terraform'],
@@ -259,25 +259,25 @@ const config: PortfolioConfig = {
         title: 'AWS AI Platform Architect',
         tagline: 'Run AI safely on AWS.',
         description:
-          'Amazon Bedrock with PrivateLink, guardrails, SCPs, AI gateway patterns, observability and cost control. Terraform starters and labs included.',
+          'An 8-week course in Terraform: Bedrock in an egress-free VPC, Canada-only inference, guardrails enforced by IAM, a LiteLLM AI gateway on Fargate, GuardDuty AI Protection, FinOps and a CI release gate.',
         audience: 'Cloud and platform engineers',
         href: 'https://github.com/vnigam1985/aws-ai-platform-architect',
-        tags: ['Amazon Bedrock', 'PrivateLink', 'Guardrails', 'Terraform'],
+        tags: ['Amazon Bedrock', 'PrivateLink', 'Guardrails', 'AI gateway', 'Terraform'],
       },
       {
         title: 'GCP AI Platform Architect',
         tagline: 'Run AI safely on Google Cloud.',
         description:
-          'Vertex AI with Private Service Connect and VPC Service Controls, org policies, AI gateway patterns, security and FinOps. Terraform starters and labs included.',
+          'An 8-week course in Terraform: Gemini on regional endpoints from an internet-free network, Model Armor, an AI gateway on Cloud Run, org policies and VPC Service Controls, FinOps and a CI release gate.',
         audience: 'Cloud and platform engineers',
         href: 'https://github.com/vnigam1985/gcp-ai-platform-architect',
-        tags: ['Vertex AI', 'VPC Service Controls', 'Org Policy', 'Terraform'],
+        tags: ['Gemini', 'Model Armor', 'VPC Service Controls', 'Cloud Run', 'Terraform'],
       },
       {
         title: 'AI Quality Engineer',
         tagline: 'Test LLM, RAG and agent apps.',
         description:
-          'A 26-week path from QA engineer to AI quality engineer. promptfoo, DeepEval, Ragas, red teaming mapped to OWASP, Playwright and CI gates, with a sample app to test.',
+          'An 8-week build-along course that runs offline for $0. Test a bank assistant with promptfoo, DeepEval and Ragas, calibrate LLM judges, red team it against OWASP 2026, and ship a GO / NO-GO report from CI.',
         audience: 'QA and test engineers',
         href: 'https://github.com/vnigam1985/ai-quality-engineer',
         tags: ['promptfoo', 'DeepEval', 'Ragas', 'Red teaming', 'Playwright'],
